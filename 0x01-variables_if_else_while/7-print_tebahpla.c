@@ -2,22 +2,23 @@
 #include <stdlib.h>
 
 /**
- * main - returns alphabets in reverse order
+ * main - returns an alphabet in reverse order
  *
- * Returnn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	int ch = 'z';
-	
+
 	while (ch >= 'a')
 	{
 		putchar(ch);
-		ch--;
 	}
+	ch--;
 
 	putchar('\n');
 
 	return (0);
+
 }
