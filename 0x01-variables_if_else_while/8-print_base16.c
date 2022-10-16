@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
- * main - return numbers of base 16
+ * main - return numbers of base 16 in lower cases
  *
  * Return: Always 0 (Success)
  */
