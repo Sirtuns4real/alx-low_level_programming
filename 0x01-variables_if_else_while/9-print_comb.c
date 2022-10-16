@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - prints numbers from 0 to 9 separated by a coma followed by a space
  *
  * Return: Always 0 (success)
@@ -9,6 +8,7 @@
  */
 
 int main(void)
+
 {
 	int num = '0';
 
