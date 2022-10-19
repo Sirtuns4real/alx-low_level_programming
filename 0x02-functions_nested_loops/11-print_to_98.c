@@ -11,7 +11,7 @@ void print_to_98(int n)
 {
 	int n;
 
-	for (; n <= 98; n++)
+	for (n = n; n <= 98; n++)
 	{
 		return (n);
 	}
