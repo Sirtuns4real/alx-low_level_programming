@@ -6,7 +6,7 @@
  * @argv: number of argument
  * Return: Always 0
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	/*Declaring variables*/
 	int position, total, change, aux;
@@ -33,4 +33,14 @@ int main(int argc, char **argv)
 	{
 		if (total >= coins[position])
 		{
-			aux = (total / coins
+			aux = (total / coins[position]);
+			change += aux;
+			total -= coins[position] * aux;
+		}
+
+		position++;
+	}
+	printf("%d\n", change);
+
+	return (0);
+}
